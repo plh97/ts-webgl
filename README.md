@@ -1,4 +1,4 @@
-# babylon-typescript
+# typescript-babylon
 
 Project setup to hack on [babylonjs](https://www.babylonjs.com/) apps in typescript.
 
@@ -26,12 +26,9 @@ transpilation/compilation to a mimimum during development.
   ]
 }
 ```
+
 [hot module replacement](https://parceljs.org/hmr.html) is also enabled (see `./main.ts`).
 
 Basically the game is recreated with a new Canvas after the old Canvas was removed from the
 page. This means that when serving your game via `npm start` you can simply make edits and save
 and see the browser page update itself.
-
-## License
-
-MIT
