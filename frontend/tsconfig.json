@@ -3,6 +3,7 @@
     "target": "esnext",
     "module": "esnext",
     "strict": true,
+    "tsx": "react",
     "alwaysStrict": true,
     "declaration": true, // 生成相应的 '.d.ts' 文件
     "sourceMap": true, // 生成相应的 '.map' 文件

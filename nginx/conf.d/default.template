@@ -1,0 +1,21 @@
+server {
+  listen 80;
+  server_name 0.0.0.0;
+  charset utf-8;
+
+  location / {
+    proxy_pass http://frontend:1234;
+    proxy_set_header Host $host;
+  }
+}
+
+server {
+  listen ${HMR_PORT};
+  server_name 0.0.0.0;
+  charset utf-8;
+
+  location / {
+    proxy_pass http://frontend:${HMR_PORT};
+    proxy_http_version 1.1;
+  }
+}

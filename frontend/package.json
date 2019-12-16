@@ -1,0 +1,43 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "description": "Project setup to hack on babylonjs apps in typescript.",
+  "main": "dist/index.html",
+  "scripts": {
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
+  },
+  "browserslist": {
+    "development": [
+      "last 1 chrome version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thlorenz/babylon-typescript.git"
+  },
+  "homepage": "https://github.com/thlorenz/babylon-typescript",
+  "dependencies": {
+    "add": "^2.0.6",
+    "babylonjs": "~3.3.0",
+    "core-js": "2",
+    "deasync": "^0.1.16",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "yarn": "^1.21.0"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com"
+  },
+  "license": "https://github.com/thlorenz/babylon-typescript/blob/master/LICENSE",
+  "engine": {
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "~3.1.6"
+  }
+}
