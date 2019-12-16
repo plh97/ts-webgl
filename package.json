@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@types/react": "^16.9.16",
-    "@types/react-dom": "^16.9.4"
-  }
-}
